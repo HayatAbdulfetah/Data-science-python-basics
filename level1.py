@@ -13,3 +13,8 @@ def prime(n):
             return "prime number"
         else:
             return "not prime number"
+
+# accpept a number from the user asan input:
+
+n = int(input("enter a number: "))
+print(prime(n))
