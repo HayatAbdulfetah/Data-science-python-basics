@@ -1,7 +1,9 @@
 # Find the largest number in a list
-# if there is a list of unsorted numbers
+
+# accept a list of numbers from the user
 # just use max() function
 
-nums = [2,3,6,7,9,11,4]
+nums = list(map(int, input().split()))
 maximum_num = max(nums)
-print(maximum_num) # it will print 11 which is the largest number from the list
+
+print(maximum_num) # it will print the maximum/largest number from the list of number
